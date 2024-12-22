@@ -1,0 +1,100 @@
+ [
+      {
+        "recipe_image": "../src/assets/cardImg.png",
+        "recipe_id": 301,
+        "recipe_name": "Grilled Lemon Salmon",
+        "short_description": "A light and fresh grilled salmon recipe with a hint of lemon.",
+        "ingredients": [
+          "4 salmon fillets",
+          "2 tbsp olive oil",
+          "1 lemon, juiced",
+          "1 garlic clove, minced",
+          "1 tsp black pepper",
+          "1 tsp salt"
+        ],
+        "preparing_time": "25 min",
+        "calories": "400 calories"
+      },
+      {
+        "recipe_image": "../src/assets/cardImg1.png",
+        "recipe_id": 302,
+        "recipe_name": "Creamy Alfredo Pasta",
+        "short_description": "A rich and creamy Alfredo pasta with a garlic Parmesan sauce.",
+        "ingredients": [
+          "300 g fettuccine",
+          "200 ml heavy cream",
+          "100 g Parmesan cheese",
+          "2 garlic cloves, minced",
+          "50 g butter",
+          "1 tsp black pepper"
+        ],
+        "preparing_time": "20 min",
+        "calories": "650 calories"
+      },
+      {
+        "recipe_image": "../src/assets/cardImg.png",
+        "recipe_id": 303,
+        "recipe_name": "Chicken Fajitas",
+        "short_description": "Sizzling chicken fajitas served with peppers and onions.",
+        "ingredients": [
+          "500 g chicken breast, sliced",
+          "1 red bell pepper, sliced",
+          "1 green bell pepper, sliced",
+          "1 onion, sliced",
+          "2 tbsp fajita seasoning",
+          "4 tortillas"
+        ],
+        "preparing_time": "30 min",
+        "calories": "500 calories"
+      },
+      {
+        "recipe_image": "../src/assets/cardImg1.png",
+        "recipe_id": 304,
+        "recipe_name": "Beef Tacos",
+        "short_description": "Classic beef tacos with a seasoned ground beef filling.",
+        "ingredients": [
+          "400 g ground beef",
+          "1 taco seasoning packet",
+          "8 taco shells",
+          "100 g lettuce, shredded",
+          "100 g cheddar cheese, shredded",
+          "100 g salsa"
+        ],
+        "preparing_time": "20 min",
+        "calories": "450 calories"
+      },
+      {
+        "recipe_image": "../src/assets/cardImg.png",
+        "recipe_id": 305,
+        "recipe_name": "Shrimp Scampi",
+        "short_description": "Succulent shrimp cooked in a garlic and white wine sauce.",
+        "ingredients": [
+          "500 g shrimp, peeled",
+          "4 garlic cloves, minced",
+          "100 ml white wine",
+          "50 g butter",
+          "1 lemon, juiced",
+          "1 tbsp parsley"
+        ],
+        "preparing_time": "15 min",
+        "calories": "320 calories"
+      },
+      {
+        "recipe_image": "../src/assets/cardImg1.png",
+        "recipe_id": 306,
+        "recipe_name": "Vegetarian Pizza",
+        "short_description": "A colorful vegetarian pizza with fresh vegetables and mozzarella.",
+        "ingredients": [
+          "1 pizza dough",
+          "100 g mozzarella cheese",
+          "50 g bell peppers, sliced",
+          "50 g onions, sliced",
+          "50 g mushrooms, sliced",
+          "2 tbsp tomato sauce"
+        ],
+        "preparing_time": "35 min",
+        "calories": "600 calories"
+      }
+    ]
+
+  

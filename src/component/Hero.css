@@ -1,0 +1,53 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Adjust height as needed */
+    overflow: hidden;
+    padding: 16px;
+    
+}
+
+.background-image {
+    background-image: url('../assets/hero-img.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 102%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+
+.content {
+    color: white;
+    padding: 20px;
+    
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.feedback-btn{
+    border: 1px solid white;
+}
+/* .explore-btn:hover{
+    border: 1px solid white;
+    color: white;
+} */
+ .hero-text{
+    
+    font-family: lexend;
+ }
