@@ -3,11 +3,11 @@ import '../app.css'
 const Food = ({food, HandleFoodCart}) => {
   const {recipe_image , recipe_name, short_description, ingredients, preparing_time, calories } = food ;
   return (
-    <div className=''>
-      <div className="m-6 h-[]">
+    <div>
+      <div className="m-6 w-96 h-[685px]">
       <img src={recipe_image} alt={recipe_name} className='w-full' />
-      <h1 className='text-lx font-semibold mt-6 '>{recipe_name}</h1>
-      <p className='fira-sans-regular mt-4 mb-4 text-gray-400 h-9'>{short_description}</p>
+      <h1 className='md:text-2xl font-semibold mt-6 '>{recipe_name}</h1>
+      <p className='fira-sans-regular mt-4 mb-4 text-gray-400 leading-7'>{short_description}</p>
       <hr />
       <h2 className='mt-6 mb-4'>Ingredients:{ingredients.length} </h2>
        {
@@ -33,7 +33,7 @@ const Food = ({food, HandleFoodCart}) => {
       </div>
       <button 
       onClick={() =>HandleFoodCart(food)}
-      className='bg-green-400 hover:bg-green-600 px-5 p-2 rounded-3xl font-semibold mx-2 my-3' >Want to cook</button>
+      className='bg-green-400 hover:bg-green-600 px-5 p-2 rounded-3xl font-semibold  my-3' >Want to cook</button>
       </div>
     </div>
   )

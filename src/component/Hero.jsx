@@ -1,11 +1,10 @@
-
 import './Hero.css'; // Import the CSS file
 
 const Hero = () => {
     return (
         <div className="hero">
             <div className="background-image">
-                <div className="content w-6/10">
+                <div className="content w-6/10 mt-11">
                     <h1 className='hero-text md:text-[70px]'>Discover an exceptional cooking class tailored for you!</h1>
                     <p>Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
                     <div className="buttons">

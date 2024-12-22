@@ -45,15 +45,16 @@ theme="colored"
 
 />
     <div className="recepis-title text-center mt-20 m-7 ">
-        <h1 className='text-[2rem] pb-6 font-bold'>
+        <h1 className='text-[2.5rem] pb-6 font-bold'>
           Our Recepics
         </h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae commodi aperiam odio? Debitis, veniam dolore! Illo illum quo quas qui corrupti ad odio nam quibusdam officia possimus, unde accusantium optio!</p>
     </div>
     
-    <div className='flex  justify-between'>
-    <Foods HandleFoodCart={HandleFoodCart}></Foods>
+    <div className='md:flex  md:justify-between sm:justify-center md:flex-row-reverse '>
     <FoodAdd FoodCart={FoodCart} removeFoodCart={removeFoodCart}></FoodAdd>
+    <Foods HandleFoodCart={HandleFoodCart}></Foods>
+    
     </div>
     
      </>

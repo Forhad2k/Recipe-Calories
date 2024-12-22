@@ -16,9 +16,9 @@ function Navber() {
         onClick={() => setIsToggled(!isToggled)}
         className="md:hidden p-3"
       >
-        {isToggled ? <IoCloseSharp /> : <CgMenuLeftAlt />}
+        {isToggled ? <IoCloseSharp className="w-8 h-8 " /> : <CgMenuLeftAlt className="w-8 h-8"/>}
       </button>
-        <h3 className="font-bold md:w-48 md:text-[24px]">Recipe Calories</h3>
+        <h3 className="font-bold sm:text-[20px] md:w-48 md:text-[24px]">Recipe Calories</h3>
       </div>
 
       <div
@@ -36,9 +36,10 @@ function Navber() {
 
       
       <div className="nav-right flex items-center gap-3">
-        <FaSearch />
+        <FaSearch className="w-6 h-6 " />
         <input
-          className="px-3 py-1 border-none outline-none sm:w-24 md:w-auto"
+          className="px-3 py-1 border-none outline-none w-44
+           md:w-auto"
           type="text"
           placeholder="Search"
         />
